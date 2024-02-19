@@ -5,7 +5,7 @@ const doc = {
     title: "Tourism API",
     description: "Tourism API",
   },
-  host: "localhost:3000",
+  host: "tourism-app-api.onrender.com",
   schemes: ["https", "http"],
 };
 
