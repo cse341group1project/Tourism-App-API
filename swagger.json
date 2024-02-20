@@ -7,7 +7,9 @@
   },
   "host": "tourism-app-api.onrender.com",
   "basePath": "/",
-  "schemes": ["https", "http"],
+  "schemes": [
+    "https"
+  ],
   "paths": {
     "/": {
       "get": {
@@ -32,7 +34,9 @@
     "/site/": {
       "get": {
         "description": "",
-        "produces": ["application/json"],
+        "produces": [
+          "application/json"
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -83,7 +87,9 @@
     "/site/{id}": {
       "get": {
         "description": "",
-        "produces": ["application/json"],
+        "produces": [
+          "application/json"
+        ],
         "parameters": [
           {
             "name": "id",
